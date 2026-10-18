@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montañas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .nav-link.active { background-color: #198754; border-radius: .5rem; }
+  </style>
+</head>
+<body>
+
+  <!--Menú de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🌍 Explorando</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mostrar menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="pagina1.html">pagina 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina2.html">pagina 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="pagina3.html">pagina 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="display-3 fw-bold">⛰️ Montañas <span class="badge bg-success fs-6 align-middle">Aventura</span></h1>
+
+    <p class="lead mt-3">
+      Las montañas son gigantes silenciosos que han acompañado a la humanidad desde siempre. Sus cumbres,
+      muchas veces cubiertas de nieve, parecen tocar el cielo y nos recuerdan lo pequeños que somos.
+    </p>
+    <p>
+      Subir una montaña es un reto físico y mental. Cada paso exige paciencia, y la recompensa al llegar
+      a la cima es una vista que ninguna fotografía logra capturar por completo.
+    </p>
+    <p>
+      Además de ser hermosas, las montañas son hogar de una enorme variedad de plantas y animales, y de
+      ellas nacen muchos de los ríos que llevan agua a pueblos y ciudades enteras.
+    </p>
+
+    <div class="alert alert-success d-flex align-items-center my-4" role="alert">
+      <span class="fs-4 me-3">💡</span>
+      <div><strong>Consejo de excursionista:</strong> lleva agua, calzado cómodo y avisa a alguien a dónde vas.</div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/montaña.jpg" class="card-img-top" alt="Cumbre de una montaña">
+          <div class="card-body">
+            <h5 class="card-title">La cumbre</h5>
+            <p class="card-text">El punto más alto, donde el aire es frío y el paisaje se extiende hasta el horizonte.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/sendero.jpg" class="card-img-top" alt="Sendero de montaña">
+          <div class="card-body">
+            <h5 class="card-title">El sendero</h5>
+            <p class="card-text">Caminos de tierra y piedra que invitan a avanzar con calma y disfrutar el trayecto.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagenes/valle.png" class="card-img-top" alt="Valle entre montañas">
+          <div class="card-body">
+            <h5 class="card-title">El valle</h5>
+            <p class="card-text">Al pie de las montañas se forman valles verdes llenos de vida y de silencio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="pagina2.html" class="btn btn-outline-success btn-lg">Siguiente: el mar →</a>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white-50 text-center py-3">
+    Actividad de desarrollo web
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
